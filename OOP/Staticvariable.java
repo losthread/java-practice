@@ -13,6 +13,11 @@ class Mobile
   {
     System.out.println(brand + " : $" + price + " : " + name);
   } 
+
+  public static void show1()
+  {
+    System.out.println("in static method");
+  }
 }
 
 public class Staticvariable 
@@ -31,5 +36,6 @@ public class Staticvariable
 
     obj1.show();
     obj2.show();
+    Mobile.show1();
   }  
 }
